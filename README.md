@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/42662076-6d0e-4098-bffb-404241f75754)
+![image](https://github.com/user-attachments/assets/26c40b83-ae5c-433d-bd08-4c7cfe12ec3c)
 <h1>Mac OS Simulation</h1>
 
 <p>A web-based simulation of the Mac OS environment, designed to mimic the look and feel of macOS. This project is built using HTML, CSS, and JavaScript to create a desktop-like experience in the browser.</p>
