@@ -12,6 +12,13 @@
   <li><strong>Openable Apps:</strong> Functional icons in the dock to open simulated apps such as Finder, Browser, Calculator, and Notes.</li>
 </ul>
 
+<h2>Frameworks</h2>
+<div>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML5" width="50" height="50">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS3" width="50" height="50">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="50" height="50">
+</div>
+
 <h2>Installation</h2>
 <p>To run this project locally, follow these steps:</p>
 <ol>
@@ -32,5 +39,3 @@
 
 <h2>License</h2>
 <p>This project is licensed under the MIT License. See the <a href="LICENSE">LICENSE</a> file for details.</p>
-
-
