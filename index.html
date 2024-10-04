@@ -88,6 +88,28 @@
         .menu-option:hover {
             background-color: rgba(80, 80, 80, 0.9);
         }
+        #dock {
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 20px;
+            padding: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+        .dock-icon {
+            width: 50px;
+            height: 50px;
+            margin: 0 5px;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+        .dock-icon:hover {
+            transform: scale(1.2) translateY(-10px);
+        }
     </style>
 </head>
 <body>
@@ -121,6 +143,13 @@
             <div class="menu-option">Clean Up</div>
             <div class="menu-option">Clean Up By</div>
             <div class="menu-option">Show View Options</div>
+        </div>
+        <div id="dock">
+            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MCIgaGVpZ2h0PSI1MCIgdmlld0JveD0iMCAwIDEwMCAxMDAiPjxyZWN0IHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiBmaWxsPSIjMDA3QUZGIiByeD0iMjAiLz48cGF0aCBkPSJNMjAgODBWMjBINjBMODAgNDBWODBIMjBaIiBmaWxsPSJ3aGl0ZSIvPjwvc3ZnPg==" class="dock-icon" alt="Finder">
+            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MCIgaGVpZ2h0PSI1MCIgdmlld0JveD0iMCAwIDEwMCAxMDAiPjxyZWN0IHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiBmaWxsPSIjRkYzQjMwIiByeD0iMjAiLz48Y2lyY2xlIGN4PSI1MCIgY3k9IjUwIiByPSIzMCIgZmlsbD0id2hpdGUiLz48L3N2Zz4=" class="dock-icon" alt="Calendar">
+            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MCIgaGVpZ2h0PSI1MCIgdmlld0JveD0iMCAwIDEwMCAxMDAiPjxyZWN0IHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiBmaWxsPSIjNUFDOEZBIiByeD0iMjAiLz48cGF0aCBkPSJNMzAgNzBWMzBINzBWNzBIMzBaIiBmaWxsPSJ3aGl0ZSIvPjwvc3ZnPg==" class="dock-icon" alt="Calculator">
+            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MCIgaGVpZ2h0PSI1MCIgdmlld0JveD0iMCAwIDEwMCAxMDAiPjxyZWN0IHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiBmaWxsPSIjMDA3QUZGIiByeD0iMjAiLz48cGF0aCBkPSJNMjAgODBWMjBIODBWODBIMjBaIiBmaWxsPSJ3aGl0ZSIvPjwvc3ZnPg==" class="dock-icon" alt="App Store">
+            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MCIgaGVpZ2h0PSI1MCIgdmlld0JveD0iMCAwIDEwMCAxMDAiPjxyZWN0IHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiBmaWxsPSIjRkY5NTAwIiByeD0iMjAiLz48cGF0aCBkPSJNMjAgODBWMjBIODBWODBIMjBaIiBmaWxsPSJ3aGl0ZSIvPjwvc3ZnPg==" class="dock-icon" alt="Settings">
         </div>
     </div>
     <script>
